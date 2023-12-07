@@ -13,22 +13,21 @@ Le but est d'obtenir toutes les distances paire à paire des différentes bacté
 Vous devez compléter le README pour y afficher la matrice des distances des bactéries.  
 Vous devez également y indiquer le temps d'exécution qu'il a fallu pour calculer cette matrice ainsi que l'espace mémoire maximale. Pour cela vous pouvez utiliser la commande ```/usr/bin/time -v```.  
 
-## Resultats
-### Par Brenda Enriquez et Isabelle Wu
+## Resultats  
+### Par Brenda Enriquez et Isabelle Wu  
 
 Dans nos séquences, on a trouvé des lettres qui peuvent correspondre à plusieurs nucléotides et on a décidé de ne pas les considérés dans notre algorithme.  
 
 Voici donc la matrice de distance de Jaccard qu'on obtient:  
 
-## Matrice des distances:
+## Matrice des distances:  
 File0 : GCF_008244785.1_ASM824478v1_genomic.fna  
 File1 : GCF_000006945.2_ASM694v2_genomic.fna  
 File2 : GCF_020535205.1_ASM2053520v1_genomic.fna  
 File3 : GCF_020526745.1_ASM2052674v1_genomic.fna  
 File4 : GCF_014892695.1_ASM1489269v1_genomic.fna  
 
-
-Voici donc la matrice de distance de Jaccard qu'on obtient
+Matrice de distance de Jaccard:
 
 File0  [[1.         *0.95545907* 0.01880051 0.01932558 0.00176802]  
 File1  [0.95545907 1.         0.01871978 0.01928407 0.00177782]  
@@ -52,15 +51,15 @@ fileA	fileB	Jaccard	  Sim_A	    Sim_B
 
 ## En observant les distances obtenues, que pouvez-vous dire des espèces présentes dans cet échantillon ?
 
-La distance max de Jaccard est: 0.937756 trouvé entre les sequences: GCF_008244785.1_ASM824478v1_genomic.fna et GCF_000006945.2_ASM694v2_genomic.fna
-La similarité plus grand pour la seq A est: 0.975885 trouvé entre les sequences: GCF_008244785.1_ASM824478v1_genomic.fna et GCF_000006945.2_ASM694v2_genomic.fna
-La similarité plus grand pour la seq B est: 0.978545 trouvé entre les sequences: GCF_008244785.1_ASM824478v1_genomic.fna et GCF_000006945.2_ASM694v2_genomic.fna
+La distance max de Jaccard est: 0.937756 trouvé entre les sequences: GCF_008244785.1_ASM824478v1_genomic.fna et GCF_000006945.2_ASM694v2_genomic.fna  
+La similarité plus grand pour la seq A est: 0.975885 trouvé entre les sequences: GCF_008244785.1_ASM824478v1_genomic.fna et GCF_000006945.2_ASM694v2_genomic.fna  
+La similarité plus grand pour la seq B est: 0.978545 trouvé entre les sequences: GCF_008244785.1_ASM824478v1_genomic.fna et GCF_000006945.2_ASM694v2_genomic.fna  
 
-La distance maximun de Jaccard est *0.937756*, trouvé entre le génome des files 0 et 1.
-La similarité pour le file1 est de 0.975885 et pour le file2 est de 0.978545, donc la similarité du file2 est plus élévée.
+La distance maximun de Jaccard est *0.937756*, trouvé entre le génome des files 0 et 1.  
+La similarité pour le file1 est de 0.975885 et pour le file2 est de 0.978545, donc la similarité du file2 est plus élévée.  
 
-On peut également voir une distance de 0.613899 qui n'est pas négligable entre les files 2 et 3.
-En ce qui concernent les autres pairs de génomes, ils ont très peu de ressemblance, en effet les distances de Jaccard sont inférieurs à 0.02. Notamment entre les files 0 et 4 où la distance de Jaccard est la plus faible mais on peut remarquer que le génome du file 4 a les distances les plus faibles en général.
+On peut également voir une distance de 0.613899 qui n'est pas négligable entre les files 2 et 3.  
+En ce qui concernent les autres pairs de génomes, ils ont très peu de ressemblance, en effet les distances de Jaccard sont inférieurs à 0.02. Notamment entre les files 0 et 4 où la distance de Jaccard est la plus faible mais on peut remarquer que le génome du file 4 a les distances les plus faibles en général.  
 
 ## Execution:
 --- 44.86461687088013 seconds ---  
