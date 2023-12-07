@@ -21,7 +21,7 @@ Dans nos séquences, on a trouvé des lettres qui peuvent correspondre à plusie
 Voici donc la matrice de distance de Jaccard qu'on obtient:
 
 ## Matrice des distances:
-File0 : GCF_008244785.1_ASM824478v1_genomic.fna   [[1.         *0.95545907* 0.01880051 0.01932558 0.00176802]
+File0 : GCF_008244785.1_ASM824478v1_genomic.fna&nbsp&nbsp[[1.         *0.95545907* 0.01880051 0.01932558 0.00176802]
 File1 : GCF_000006945.2_ASM694v2_genomic.fna      [0.95545907 1.         0.01871978 0.01928407 0.00177782]
 File2 : GCF_020535205.1_ASM2053520v1_genomic.fna  [0.01880051 0.01871978 1.         *0.65841015* 0.00211935]
 File3 : GCF_020526745.1_ASM2052674v1_genomic.fna  [0.01932558 0.01928407 0.65841015 1.         0.00194663]
