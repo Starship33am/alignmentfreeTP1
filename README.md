@@ -63,22 +63,22 @@ On peut également voir une distance de 0.613899 qui n'est pas négligable entre
 En ce qui concernent les autres pairs de génomes, ils ont très peu de ressemblance, en effet les distances de Jaccard sont inférieurs à 0.02. Notamment entre les files 0 et 4 où la distance de Jaccard est la plus faible mais on peut remarquer que le génome du file 4 a les distances les plus faibles en général.
 
 ## Execution:
---- 44.86461687088013 seconds ---
-       44.95 real        44.13 user         0.77 sys
-           650739712  maximum resident set size
-                   0  average shared memory size
-                   0  average unshared data size
-                   0  average unshared stack size
-              304775  page reclaims
-                  12  page faults
-                   0  swaps
-                   0  block input operations
-                   0  block output operations
-                   0  messages sent
-                   0  messages received
-                   0  signals received
-                  49  voluntary context switches
-                1939  involuntary context switches
-        525664221720  instructions retired
-        142454336621  cycles elapsed
-           423528704  peak memory footprint
+--- 44.86461687088013 seconds ---  
+       44.95 real        44.13 user         0.77 sys  
+           650739712  maximum resident set size  
+                   0  average shared memory size  
+                   0  average unshared data size  
+                   0  average unshared stack size  
+              304775  page reclaims  
+                  12  page faults  
+                   0  swaps  
+                   0  block input operations  
+                   0  block output operations  
+                   0  messages sent  
+                   0  messages received  
+                   0  signals received  
+                  49  voluntary context switches  
+                1939  involuntary context switches  
+        525664221720  instructions retired  
+        142454336621  cycles elapsed  
+           423528704  peak memory footprint  
