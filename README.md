@@ -16,9 +16,9 @@ Vous devez également y indiquer le temps d'exécution qu'il a fallu pour calcul
 ## Resultats
 ### Par Brenda Enriquez et Isabelle Wu
 
-Dans nos séquences, on a trouvé des lettres qui peuvent correspondre à plusieurs nucléotides et on a décidé de ne pas les considérés dans notre algorithme.
+Dans nos séquences, on a trouvé des lettres qui peuvent correspondre à plusieurs nucléotides et on a décidé de ne pas les considérés dans notre algorithme.  
 
-Voici donc la matrice de distance de Jaccard qu'on obtient:
+Voici donc la matrice de distance de Jaccard qu'on obtient:  
 
 ## Matrice des distances:
 File0 : GCF_008244785.1_ASM824478v1_genomic.fna ```[[1.         *0.95545907* 0.01880051 0.01932558 0.00176802]```  
