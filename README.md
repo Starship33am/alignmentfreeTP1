@@ -82,3 +82,45 @@ En ce qui concernent les autres pairs de génomes, ils ont très peu de ressembl
         525664221720  instructions retired  
         142454336621  cycles elapsed  
            423528704  peak memory footprint  
+
+# A new method: HEAPQ
+Nous avons mis en place une nouvelle méthode qui nous permet de réduire le temps de calcul tout en conservant la relation entre les distances des génomes en minimisant le nombre de comparaisons. Nous avons comparé seulement un certain nombre de kmer qu'on a échantillonné en prenant les plus petits kmer (sous forme de bit).
+
+En effet, la distance maximale de Jaccard reste entre les génomes GCF_008244785.1_ASM824478v1_genomic.fna et GCF_000006945.2_ASM694v2_genomic.fna.
+
+```
+fileA	fileB	Jaccard
+0	1	0.8333333333333334
+0	2	0.021505376344086023
+0	3	0.024
+0	4	0.0
+1	2	0.02127659574468085
+1	3	0.024
+1	4	0.0
+2	3	0.6578947368421053
+2	4	0.014084507042253521
+3	4	0.0
+```
+
+Avec cette méthode, on a divisé par 8 le temps de calcul : 
+```
+Time :  7.4139392375946045
+        8.00 real         9.53 user         0.24 sys
+           147292160  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               22264  page reclaims
+                1259  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 851  voluntary context switches
+                6108  involuntary context switches
+        159600091993  instructions retired
+         30068571363  cycles elapsed
+           125716160  peak memory footprint
+```
